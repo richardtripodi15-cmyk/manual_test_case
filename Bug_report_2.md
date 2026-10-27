@@ -7,7 +7,7 @@
 |Title|	Incorrect message|
 |Related| TC-02|
 |Severity|	Trivial|
-|Priority|	Medium |
+|Priority|	High |
 |Environment|	ParaBank demo - 05052026|
 |Reported by|	Richard Tripodi|
 
