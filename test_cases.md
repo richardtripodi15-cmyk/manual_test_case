@@ -17,13 +17,13 @@ The balances of both accounts are known before each test
 ### Steps
 
 1. Open https://parabank.parasoft.com and log in with valid credentials.
-2. Go to Accounts Overview and write down the balances of Account A and Account B. [Evindence TC_1_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_1.png)
+2. Go to Accounts Overview and write down the balances of Account A and Account B. [Evidence TC_1_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_1.png)
 4. Go to Transfer Funds.
 5. Enter amount 100.00.
 6. Select Account A in "From account" and Account B in "To account".
-7. Click Transfer.[Evindence TC_1_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_2.png)
+7. Click Transfer.[Evidence TC_1_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_2.png)
 8. Go to Accounts Overview.
-9. Open the activity of Account A, and then the activity of Account B. [Evindence TC_1_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_3.png), [Evindence TC_1_4](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_4.png)
+9. Open the activity of Account A, and then the activity of Account B. [Evidence TC_1_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_3.png), [Evidence TC_1_4](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_4.png)
 
 Expected result
 
@@ -43,11 +43,11 @@ Actual result: Completed without incident.
 
 Steps
 
-1. Log in and write down the balance of Account A. [Evindence TC_2_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_1.png)
+1. Log in and write down the balance of Account A. [Evidence TC_2_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_1.png)
 2. Go to Transfer Funds.
-3. Enter an amount 1.00 higher than the balance of Account A. [Evindence TC_2_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_2.png)
+3. Enter an amount 1.00 higher than the balance of Account A. [Evidence TC_2_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_2.png)
 4. Select Account A as source and Account B as destination.
-5. Click Transfer. [Evindence TC_2_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_3.png)
+5. Click Transfer. [Evidence TC_2_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_3.png)
 
 Expected result
 
@@ -68,9 +68,9 @@ Actual result: Unsuccessful result. It was evidenced that the system allowed tra
 Steps
 
 1. Log in and go to Transfer Funds.
-2. Leave the amount field empty.[Evindence TC_3_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_3_1.png)
+2. Leave the amount field empty.[Evidence TC_3_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_3_1.png)
 3. Select Account A as source and Account B as destination.
-4. Click Transfer.[Evindence TC_3_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_3_2.png)
+4. Click Transfer.[Evidence TC_3_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_3_2.png)
 
 Expected result
 
