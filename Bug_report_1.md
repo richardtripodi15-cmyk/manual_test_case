@@ -16,11 +16,11 @@
 You must have access to two active accounts and a balance in at least one of them to make a transfer.
 
 ### Steps to reproduce
-1. Log in and write down the balance of Account A. [Evindence TC_2_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_1.png)
+1. Log in and write down the balance of Account A. [Evidence TC_2_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_1.png)
 2. Go to Transfer Funds.
-3. Enter an amount 1.00 higher than the balance of Account A. [Evindence TC_2_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_2.png)
+3. Enter an amount 1.00 higher than the balance of Account A. [Evidence TC_2_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_2.png)
 4. Select Account A as source and Account B as destination.
-5. Click Transfer. [Evindence TC_2_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_3.png)
+5. Click Transfer. [Evidence TC_2_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_3.png)
 
 ### Expected result
 
