@@ -16,14 +16,14 @@ The balances of both accounts are known before each test
 
 ### Steps
 
-Open https://parabank.parasoft.com and log in with valid credentials.
-Go to Accounts Overview and write down the balances of Account A and Account B.
-Go to Transfer Funds.
-Enter amount 100.00.
-Select Account A in "From account" and Account B in "To account".
-Click Transfer.
-Go to Accounts Overview.
-Open the activity of Account A, and then the activity of Account B.
+1. Open https://parabank.parasoft.com and log in with valid credentials.
+2. Go to Accounts Overview and write down the balances of Account A and Account B.
+3. Go to Transfer Funds.
+4. Enter amount 100.00.
+5. Select Account A in "From account" and Account B in "To account".
+6. Click Transfer.
+7. Go to Accounts Overview.
+9. Open the activity of Account A, and then the activity of Account B.
 
 Expected result
 
@@ -31,7 +31,7 @@ Step 6: the message "Transfer Complete!" is displayed with the amount and both a
 Step 7: the balance of Account A is 100.00 lower and the balance of Account B is 100.00 higher.
 Step 8: Account A shows a debit of 100.00 and Account B shows a credit of 100.00, both with today's date.
 
-Actual result: To be completed during execution Status: Not executed
+Actual result: Completed without incident.
 
 ## TC-02 – Transfer amount greater than the available balance
 
