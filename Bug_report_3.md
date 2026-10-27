@@ -39,5 +39,5 @@ Money, balance, customers, compliance.
 ### Evidence
 
 Screenshots:
-1. [Evindence TC_4_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_4_1.png)
-2. [Evindence TC_4_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_4_2.png)
+1. [Evidence TC_4_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_4_1.png)
+2. [Evidence TC_4_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_4_2.png)
