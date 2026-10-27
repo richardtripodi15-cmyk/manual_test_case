@@ -9,7 +9,10 @@ This project shows how I plan and design tests for a banking feature, using a ri
 |:--:|:--:|
 |  [TEST_PLAN.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/test_plan.md)	| Test plan: scope, approach, risks, environment, entry and exit criteria |
 | [TEST_CASES.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/test_plan.md) |	5 manual test cases: 1 end-to-end and 4 functional (positive and negative) |
-| [BUG_REPORT_TEMPLATE.md]	| Template used to report defects found during execution |
+| [Bug_report_1.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_1.md) | Bug Report |
+| [Bug_report_2.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_2.md) | Bug Report |
+| [Bug_report_3.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_3.md) | Bug Report |
+| [Bug_report_4.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_4.md) | Bug Report |
 
 # ¿Why this feature? 
 Fund transfers move real money. A defect here can cause:
