@@ -2,35 +2,43 @@
 
 ### Field	Value
 
-|ID|BUG-XX|
+|ID|BUG-01|
 |:--:|:--:|
-|Title|	Short and specific description of the problem|
-|Related| test case	TC-XX|
-|Severity|	Critical / Major / Minor / Trivial|
-|Priority|	High / Medium / Low|
-|Environment|	ParaBank demo – Chrome (version) – date|
+|Title|	Financial loss caused by allowing a transfer exceeding the account balance|
+|Related| TC-02|
+|Severity|	Critical|
+|Priority|	High|
+|Environment|	ParaBank demo - 05052026|
 |Reported by|	Richard Tripodi|
 
 ### Preconditions
 
-What must exist before reproducing the bug (user, accounts, balances).
+You must have access to two active accounts and a balance in at least one of them to make a transfer.
 
 ### Steps to reproduce
-Step one
-Step two
-Step three
-Expected result
+1. Log in and write down the balance of Account A. [Evindence TC_2_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_1.png)
+2. Go to Transfer Funds.
+3. Enter an amount 1.00 higher than the balance of Account A. [Evindence TC_2_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_2.png)
+4. Select Account A as source and Account B as destination.
+5. Click Transfer. [Evindence TC_2_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_3.png)
 
-What the system should do according to the business rule.
+### Expected result
+
+The transfer is rejected with a clear message about insufficient funds.
+The balances of Account A and Account B do not change.
+No new entries appear in the activity of either account.
 
 ### Actual result
 
-What the system actually did.
+Unsuccessful result. It was evidenced that the system allowed transfers to be made despite having insufficient funds. It processed the credits and debits without taking the balance limit into account. A possible reason is that the account may have an overdraft transfer facility (unbacked), but this needs to be verified.
 
 ### Impact
 
-Why this matters for the business (money, balances, customers, compliance).
+Money, balances, customers, compliance.
 
 ### Evidence
 
-Screenshots, video or logs. Include the balances before and after the test.
+Screenshots:
+1. [Evindence TC_2_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_1.png)
+2. [Evindence TC_2_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_2.png)
+3. [Evindence TC_2_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_2_3.png)
