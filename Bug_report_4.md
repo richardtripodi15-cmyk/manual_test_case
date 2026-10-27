@@ -7,7 +7,7 @@
 |Title|	Incorrect transfer|
 |Related| TC-05|
 |Severity|	Major |
-|Priority|	Low |
+|Priority|	Medium |
 |Environment|	ParaBank demo - 05052026|
 |Reported by|	Richard Tripodi|
 
