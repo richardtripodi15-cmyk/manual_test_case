@@ -102,7 +102,7 @@ No transfer is processed and the balances do not change.
 
 Actual result: Unsuccessful result. The system allows transfers to be made with negative values and zero amounts. [ID Bug-03](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_3.md)
 
-TC-05 – Transfer to the same account
+## TC-05 – Transfer to the same account
 
 | Field	| Value |
 |:--:|:--:|
