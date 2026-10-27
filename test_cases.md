@@ -67,19 +67,19 @@ Actual result: Unsuccessful result. It was evidenced that the system allowed tra
 
 Steps
 
-Log in and go to Transfer Funds.
-Leave the amount field empty.
-Select Account A as source and Account B as destination.
-Click Transfer.
+1. Log in and go to Transfer Funds.
+2. Leave the amount field empty.[Evindence TC_3_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_3_1.png)
+3. Select Account A as source and Account B as destination.
+4. Click Transfer.[Evindence TC_3_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_3_2.png)
 
 Expected result
 
 A validation message asks the user to enter an amount.
 The transfer is not processed and the balances do not change.
 
-Actual result: To be completed during execution Status: Not executed
+Actual result: Unsuccessful result. The system response is not as expected, although it functionally prevents monetary losses. ID BUG-02
 
-TC-04 – Transfer with invalid amount values
+## TC-04 – Transfer with invalid amount values
 
 | Field	| Value |
 |:--:|:--:|
