@@ -7,9 +7,9 @@ This project shows how I plan and design tests for a banking feature, using a ri
 
 | File | Description |
 |:--:|:--:|
-|  TEST_PLAN.md	| Test plan: scope, approach, risks, environment, entry and exit criteria |
-| TEST_CASES.md |	5 manual test cases: 1 end-to-end and 4 functional (positive and negative) |
-| BUG_REPORT_TEMPLATE.md	| Template used to report defects found during execution |
+|  [TEST_PLAN.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/test_plan.md)	| Test plan: scope, approach, risks, environment, entry and exit criteria |
+| [TEST_CASES.md] |	5 manual test cases: 1 end-to-end and 4 functional (positive and negative) |
+| [BUG_REPORT_TEMPLATE.md]	| Template used to report defects found during execution |
 
 # ¿Why this feature? 
 Fund transfers move real money. A defect here can cause:
