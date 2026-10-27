@@ -112,24 +112,24 @@ Actual result: Unsuccessful result. The system allows transfers to be made with 
 
 Steps
 
-Log in and write down the balance of Account A.
-Go to Transfer Funds.
-Enter amount 50.00.
-Select Account A in both "From account" and "To account".
-Click Transfer.
+1. Log in and write down the balance of Account A.
+2. Go to Transfer Funds.
+3. Enter amount 100.00.
+4. Select Account A in both "From account" and "To account".
+5. Click Transfer.
 
 Expected result
 
 The system rejects the operation with a message saying that source and destination must be different.
 The balance of Account A does not change and no entries are added to its activity.
 
-Actual result: To be completed during execution Status: Not executed
+Actual result: Unexpected outcome. The system allowed a transfer where the source and destination accounts were the same.[ID Bug-04](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_4.md)
 
 Execution summary
 |ID|Title|Type|Priority|	Status|
 |:--:|:--:|:--:|:--:|:--:|
-|TC-01|	Transfer between own accounts|	E2E|	High|	Not executed|
-|TC-02|	Amount greater than balance|	Negative|	High|	Not executed|
-|TC-03|	Empty amount|	Negative|	Medium|	Not executed|
-|TC-04|	Invalid amount values|	Negative|	Medium|	Not executed|
-|TC-05|	Same source and destination|	Negative|	Medium|	Not executed|
+|TC-01|	Transfer between own accounts|	E2E|	High|	Executed|
+|TC-02|	Amount greater than balance|	Negative|	High| Executed|
+|TC-03|	Empty amount|	Negative|	Medium|	Executed|
+|TC-04|	Invalid amount values|	Negative|	Medium|	Executed|
+|TC-05|	Same source and destination|	Negative|	Medium|	Executed|
