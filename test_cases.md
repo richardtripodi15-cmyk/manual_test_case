@@ -85,22 +85,22 @@ Actual result: Unsuccessful result. The system response is not as expected, alth
 |:--:|:--:|
 |Type|	Functional – negative (input validation)|
 |Priority|	Medium|
-|Test data|	-50, 0, abc, 10,50|
+|Test data|	-50, 0, abc, 10.10|
 
 Steps
 
-Log in and go to Transfer Funds.
-Enter the first value from the test data.
-Select Account A as source and Account B as destination.
-Click Transfer.
-Repeat steps 2 to 4 for each value.
+1. Log in and go to Transfer Funds.
+2. Enter the first value from the test data.
+3. Select Account A as source and Account B as destination.
+4. Click Transfer.
+5. Repeat steps 2 to 4 for each value.
 
 Expected result
 
 For each value, the system shows a validation message.
 No transfer is processed and the balances do not change.
 
-Actual result: To be completed during execution (one result per value) Status: Not executed
+Actual result: Unsuccessful result. The system allows transfers to be made with negative values and zero amounts. ID BUG-03
 
 TC-05 – Transfer to the same account
 
