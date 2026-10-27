@@ -14,7 +14,7 @@ This project shows how I plan and design tests for a banking feature, using a ri
 | [Bug_report_3.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_3.md) | Bug Report |
 | [Bug_report_4.md](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_4.md) | Bug Report |
 
-# ¿Why this feature? 
+# Why this feature? 
 Fund transfers move real money. A defect here can cause:
 
 Economic loss for the customer or the bank
