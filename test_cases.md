@@ -55,7 +55,7 @@ The transfer is rejected with a clear message about insufficient funds.
 The balances of Account A and Account B do not change.
 No new entries appear in the activity of either account.
 
-Actual result: Unsuccessful result. It was evidenced that the system allowed transfers to be made despite having insufficient funds. It processed the credits and debits without taking the balance limit into account. A possible reason is that the account may have an overdraft transfer facility (unbacked), but this needs to be verified. ID Bug-01
+Actual result: Unsuccessful result. It was evidenced that the system allowed transfers to be made despite having insufficient funds. It processed the credits and debits without taking the balance limit into account. A possible reason is that the account may have an overdraft transfer facility (unbacked), but this needs to be verified. [ID Bug-01](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_1.md)
 
 ## TC-03 – Transfer with empty amount
 
@@ -77,7 +77,7 @@ Expected result
 A validation message asks the user to enter an amount.
 The transfer is not processed and the balances do not change.
 
-Actual result: Unsuccessful result. The system response is not as expected, although it functionally prevents monetary losses. ID BUG-02
+Actual result: Unsuccessful result. The system response is not as expected, although it functionally prevents monetary losses. [ID Bug-02](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_2.md)
 
 ## TC-04 – Transfer with invalid amount values
 
@@ -100,7 +100,7 @@ Expected result
 For each value, the system shows a validation message.
 No transfer is processed and the balances do not change.
 
-Actual result: Unsuccessful result. The system allows transfers to be made with negative values and zero amounts. ID BUG-03
+Actual result: Unsuccessful result. The system allows transfers to be made with negative values and zero amounts. [ID Bug-03](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/Bug_report_3.md)
 
 TC-05 – Transfer to the same account
 
