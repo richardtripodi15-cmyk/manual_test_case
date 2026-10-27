@@ -21,7 +21,7 @@ The balances of both accounts are known before each test
 4. Go to Transfer Funds.
 5. Enter amount 100.00.
 6. Select Account A in "From account" and Account B in "To account".
-7. Click Transfer.[Evindence TC_1_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_1.png)](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_2.png)
+7. Click Transfer.[Evindence TC_1_2](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_2.png)
 8. Go to Accounts Overview.
 9. Open the activity of Account A, and then the activity of Account B. [Evindence TC_1_3](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_3.png), [Evindence TC_1_4](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_1_4.png)
 
