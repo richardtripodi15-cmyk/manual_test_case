@@ -20,7 +20,7 @@ You must have access to two enabled accounts to make transfers.
 1. Log in and write down the balance of Account A.
 2. Go to Transfer Funds.
 3. Enter amount 100.00.
-4. Select Account A in both "From account" and "To account". [Evindence TC_5_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_5_1.png)
+4. Select Account A in both "From account" and "To account". [Evidence TC_5_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_5_1.png)
 5. Click Transfer.
 
 ### Expected result
@@ -39,4 +39,4 @@ Customers, compliance.
 ### Evidence
 
 Screenshots:
-1. [Evindence TC_5_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_5_1.png
+1. [Evidence TC_5_1](https://github.com/richardtripodi15-cmyk/manual_test_case/blob/main/images/TC_5_1.png
